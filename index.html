@@ -20,6 +20,8 @@ text-align: center;
 color: #e6e6e6;
 font-family: "Nosifer", "Trajan Pro", serif;
 text-shadow: 0 0 20px rgba(0,0,0,0.8);
+padding: 20px;
+box-sizing: border-box;
 }
 
 
@@ -53,6 +55,14 @@ animation: fadeIn 5s ease-out;
 @keyframes fadeIn {
 0% { opacity: 0; transform: translateY(30px); }
 100% { opacity: 1; transform: translateY(0); }
+}
+@media (max-width: 600px) {
+body {
+text-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+p {
+line-height: 1.4;
+}
 }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
